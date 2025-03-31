@@ -1,0 +1,41 @@
+/* style.css */
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient();
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-alignment: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background: white;
+  width: 90%;
+  box-shadow: 5px;
+  padding: 10px;
+}
+
+#choices button {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px;
+  background-color: floralwhite;
+  cursor-style: pointer;
+}
+
+#choices button:hover {
+  background-color: #04AA6D; /* Green background */
+  color: white;
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  color: green;
+}
